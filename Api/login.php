@@ -29,6 +29,7 @@ if (!empty($data->email) && !empty($data->password)) {
     $conn->close();
 } else {
     echo json_encode(["message" => "Incomplete data"]);
+    // console.log("Hi");
 }
 ?>
 <!DOCTYPE html>
